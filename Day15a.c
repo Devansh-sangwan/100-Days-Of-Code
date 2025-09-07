@@ -2,17 +2,18 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+ {
     int n, i;
-    long long fact = 1;   // factorial can be very large
+    long long fact = 1;   
 
-    scanf("%d", &n);      // input number
+    scanf("%d", &n);    
 
     for(i = 1; i <= n; i++) {
-        fact = fact * i;  // multiply fact by i each time
+        fact = fact * i;  
     }
 
-    printf("%lld", fact); // print result
+    printf("%lld", fact); 
 
     return 0;
 }
