@@ -1,23 +1,20 @@
-//Q39: Write a program to find the product of odd digits of a number.//
+//Q38: Write a program to find the sum of digits of a number.//
 
 #include <stdio.h>
 
 int main() {
-    int n, digit;
-    int product = 1;
+    int n, digit, sum = 0;
 
     printf("Enter a number: ");
     scanf("%d", &n);
 
     while (n > 0) {
-        digit = n % 10;           
-        if (digit % 2 != 0) {     
-            product = product * digit;  
-        }
-        n = n / 10;               
+        digit = n % 10;   
+        sum = sum + digit; 
+        n = n / 10;       
     }
 
-    printf("Product of odd digits = %d\n", product); 
+    printf("Sum of digits = %d\n", sum);
 
     return 0;
 }
