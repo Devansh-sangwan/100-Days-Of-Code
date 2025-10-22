@@ -7,7 +7,7 @@ int main() {
     int n, i, sum = 0;
     int a[100];
 
-    scanf("%d", &n);  // read how many numbers
+    scanf("%d", &n);  
 
     printf("Enter the elements of the array:\n");
 
