@@ -1,4 +1,4 @@
-// Q71: Read and print a matrix.
+// Q71: Read and print a matrix.l
 #include <stdio.h>
 
 int main() {
