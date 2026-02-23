@@ -1,6 +1,5 @@
 //Q77: Check if the elements on the diagonal of a matrix are distinct.
 
-
 #include <stdio.h>
 
 int main() {

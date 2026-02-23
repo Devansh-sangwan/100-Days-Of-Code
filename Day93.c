@@ -20,7 +20,6 @@ int main() {
         scanf("%d", &s[i].roll);
         scanf("%f", &s[i].marks);
     }
-
     
     int topperIndex = 0;
     for(int i = 1; i < n; i++) {
